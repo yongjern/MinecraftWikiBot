@@ -1,0 +1,18 @@
+{
+  "name": "minecraft-slime-wiki-bot",
+  "version": "1.0.0",
+  "description": "Minecraft 史萊姆百科 Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["discord", "bot", "minecraft", "wiki"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
